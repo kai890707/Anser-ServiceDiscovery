@@ -1,0 +1,36 @@
+{
+  "name": "sdpmlab/anser-servicediscovery",
+  "description": "PHP simple service discovery library.",
+  "keywords": [
+    "php",
+    "Service Discovery",
+    "Consul",
+    "Fabio"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.4||^8.0",
+    "sdpmlab/anser-action": "^0.3.5",
+    "friendsofphp/php-cs-fixer": "^3.16",
+    "workerman/workerman": "^4.1",
+    "guzzlehttp/guzzle": "^7.5",
+    "dcarbone/php-consul-api": "^1.1"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SDPMlab\\Anser\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "SDPM-lab",
+      "homepage": "https://github.com/SDPM-lab"
+    },
+    {
+      "name": "KAI",
+      "email": "z85385637@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
